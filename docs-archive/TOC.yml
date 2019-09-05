@@ -1,2 +1,15 @@
-- name: Index
-  href: index.md
+- name: Best Practices
+  href: best-practices/index.md
+  items:
+  - name: .NET Development Guidelines
+    href: best-practices/dotnet-development-guidelines.md
+  - name: Azure Development Guidelines
+    href: best-practices/azure-development-guidelines.md
+  - name: How to Review a Spec
+    href: best-practices/reviewing-specs.md
+  - name: Security Guidelines
+    href: best-practices/security-guidelines.md
+  - name: Trace Guidelines
+    href: best-practices/trace-guidelines.md
+  - name: New Hire Ramp up (China)
+    href: best-practices/new-hire-ramp-up-china.md

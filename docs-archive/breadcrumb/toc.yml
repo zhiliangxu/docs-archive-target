@@ -1,3 +1,14 @@
 - name: Docs
-  tocHref: /
-  topicHref: /
+  href: /
+  items:
+  - name: Previous Versions
+    href: /previous-versions/
+    items:
+    - name: Engineering
+      href: /engineering/
+      items:
+      - name: Teams
+        href: /engineering/teams/
+        items:
+        - name: UX
+          href: /engineering/teams/ux/
