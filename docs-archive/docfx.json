@@ -7,11 +7,9 @@
           "**/*.yml"
         ],
         "exclude": [
+          "**/*.farx",
           "**/obj/**",
           "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -22,15 +20,18 @@
     "resource": [
       {
         "files": [
+          "**/*.farx",
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.html",
+          "**/*.vsdx",
+          "**/*.pptx",
+          "**/*.msg",
+          "**/*.csv"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**",
-          "**/docfx.json"
+          "**/includes/**"
         ]
       }
     ],
@@ -39,9 +40,21 @@
     "globalMetadata": {
       "breadcrumb_path": "/zhiliaxu-docs-archive/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/SamplesPages",
+      "feedback_product_url": "mailto://duncanma@microsoft.com",
+      "contributors_to_exclude": [
+        "VSC-Service-Account"
+      ],
+      "is_archived": "true",
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "docs_archive": "tool"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "robots": {
+        "teams/ux/**/*.md": "noindex, nofollow"
+      }
+    },
     "template": [],
     "dest": "docs-archive",
     "markdownEngineName": "markdig"
